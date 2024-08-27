@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+	<General>
+		<UserName> Khanh Tran&lt;hello@gmail.com&gt;</UserName>
+		<Password> 123456789</Password>
+		<MailServer> 127.0.0.1</MailServer>
+		<SMTP> 1234</SMTP>
+		<POP3> 1100</POP3>
+		<AutoLoad> 10</AutoLoad>
+	</General>
+	<Filter>
+		<From> toProject@example.org, toProject2@hello.com - To folder: Project</From>
+		<Subject> "urgent", "ASAP", "emergency" - To folder: Important</Subject>
+		<Content> "report", "meeting" - To folder: Work</Content>
+		<Spam> "virus", "hack", "crack" - To folder: Spam</Spam>
+	</Filter>
+</Config>
